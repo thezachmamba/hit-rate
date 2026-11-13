@@ -1,0 +1,14 @@
+{
+  "name": "prediction-rankings",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "refresh": "node pipeline/run.mjs",
+    "demo": "node pipeline/run.mjs --demo",
+    "serve": "npx --yes http-server site -p 8080 -c-1"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
+  }
+}

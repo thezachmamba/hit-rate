@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hit Rate</title>
+<meta name="description" content="Weekly accuracy rankings for sports, politics and finance pundits, refreshed every 3 hours.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#"><span class="brand-mark">%</span>Hit Rate</a>
+    <nav aria-label="Categories">
+      <a href="#" data-route="">Overview</a>
+      <a href="#sports" data-route="sports">Sports</a>
+      <a href="#politics" data-route="politics">Politics</a>
+      <a href="#finance" data-route="finance">Finance</a>
+    </nav>
+  </div>
+</header>
+<div class="banner" id="demo-banner" hidden>
+  <div class="wrap"><strong>Demo data.</strong> These names are real but every number and call shown is a randomly generated placeholder until the live data pipeline is switched on.</div>
+</div>
+<main><div class="wrap" id="app"><p class="empty">Loading rankings…</p></div></main>
+<footer><div class="wrap" id="updated"></div></footer>
+<script src="app.js"></script>
+</body>
+</html>
